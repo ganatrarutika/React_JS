@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.increment-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.increment-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+.decrement-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.decrement-btn:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
+button:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
